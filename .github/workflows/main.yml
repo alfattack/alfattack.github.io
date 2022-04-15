@@ -1,0 +1,14 @@
+name: .NET
+
+on:
+  push:
+    branches: [ master ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    # checkout main branch
+    - uses: actions/checkout@v3

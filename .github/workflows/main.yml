@@ -12,3 +12,14 @@ jobs:
     steps:
     # checkout main branch
     - uses: actions/checkout@v3
+    
+    - name: Setup .NET Core SDK
+      uses: actions/setup-dotnet@v2.0.0
+      with:
+        dotnet-version: 6.0.x
+        
+    - name: Publish project
+      run: dontet publish Site.Wasm -o Publish --nologo
+        
+    
+    

@@ -19,7 +19,7 @@ jobs:
         dotnet-version: 6.0.x
         
     - name: Publish project
-      run: dontet publish Site.Wasm -o Publish --nologo
+      run: dotnet publish Site.Wasm -o Publish --nologo
         
     
     

@@ -19,7 +19,13 @@ jobs:
         dotnet-version: 6.0.x
         
     - name: Publish project
-      run: dotnet publish Site.Wasm -o Publish --nologo
-        
-    
-    
+      run: dotnet publish Site.Wasm -o release --nologo
+      
+    - name: Add .nojekyll file
+      run: touch release/wwwroot/.nojekyll
+      
+    - name: Deploy to GitHub Pages
+      uses: JamesIves/github-pages-deploy-action@v4.3.0
+      with:
+        branch: gh-pages
+        folder: release/wwwroot

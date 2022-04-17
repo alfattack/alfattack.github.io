@@ -25,9 +25,6 @@ jobs:
       
     - name: Add .nojekyll file
       run: touch release/wwwroot/.nojekyll
-    
-    - name: run sass compile
-      run: sass Site.Wasm
       
     - name: Deploy to GitHub Pages
       uses: JamesIves/github-pages-deploy-action@v4.3.0

@@ -9,9 +9,15 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="6.0.1" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="6.0.1" PrivateAssets="all" />
-    <PackageReference Include="BuildWebCompiler" Version="1.12.405" />
   </ItemGroup>
+
+  <Target Name="PreBuild" BeforeTargets="PreBuildEvent">
+    <Exec Command="sass Pages" />
+    <Exec Command="sass Shared" />
+    <Exec Command="sass Styles/app.scss wwwroot/css/app.css" />
+  </Target>
+
   <ItemGroup>
-    <None Remove="BuildWebCompiler" />
+      <Watch Include="**/*.scss" Exclude="**/*.cs" />
   </ItemGroup>
 </Project>

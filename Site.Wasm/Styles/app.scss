@@ -1,11 +1,28 @@
-﻿@import "common.scss";
-@import "lib/materialize/components/_global.scss";
-@import "lib/materialize/components/_navbar.scss";
-@import "lib/materialize/components/normalize";
-
+﻿@import "_variables.scss";
+@import "_normalize.scss";
 
 html, body {
     font-family: 'Ubuntu', sans-serif;
+    color: #0D1315;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+    color: inherit;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
 }
 
 #blazor-error-ui {

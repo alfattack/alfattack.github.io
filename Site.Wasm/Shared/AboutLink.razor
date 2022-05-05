@@ -1,0 +1,8 @@
+﻿<about-link @onclick="@(() => NavigationManager.NavigateTo("/about"))">
+    click me.
+</about-link>
+
+
+@code {
+    [Inject] public NavigationManager NavigationManager { get; set; }
+}

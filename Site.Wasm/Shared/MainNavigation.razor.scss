@@ -1,1 +1,38 @@
-﻿
+﻿@import "../Styles/_variables.scss";
+
+h1 {
+    font-size: 13px;
+    margin: 0;
+    margin-left: 10px;
+
+    @media #{$medium-and-up} {
+        font-size: 25px;
+    }
+}
+
+i.fa-brands {
+    font-size: 25px;
+    margin: 0 10px;
+    transition: 0.5s;
+
+    &:hover {
+        font-size: 30px;
+    }
+}
+
+nav {
+    width: 100%;
+    transition: 0.3s;
+    height: $navbar-height-mobile;
+    line-height: $navbar-line-height-mobile;
+    background-color: $primary-color;
+    box-shadow: $z-depth-1;
+    color: $navbar-font-color;
+    display: flex;
+    justify-content: space-between;
+
+    @media #{$medium-and-up} {
+        height: $navbar-height;
+        line-height: $navbar-line-height;
+    }
+}

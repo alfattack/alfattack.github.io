@@ -7,7 +7,7 @@
   "linkerEnabled": true,
   "resources": {
     "assembly": {
-      "Microsoft.AspNetCore.Components.dll": "sha256-IV1LXaYVqsTRH2TP7ereLO6wmlSBojCTpuCXZDvWwT4=",
+      "Microsoft.AspNetCore.Components.dll": "sha256-ccVfW5wL3lc84eIrisCw09cmtNQI7S0EA1s5wLpIKiE=",
       "Microsoft.AspNetCore.Components.Web.dll": "sha256-fHvda5zU0X7zjVeAEpntQwyvhfFBKnLFBikG9kvlr3Y=",
       "Microsoft.AspNetCore.Components.WebAssembly.dll": "sha256-RndB9vskzdCr7HGdJgXkhfQMDJV4P3GRO7aR0bSpuVA=",
       "Microsoft.Extensions.Configuration.Abstractions.dll": "sha256-z1kZ0edoPXzUgzqFC+RQWd3F\/4Ex4LY7AgxLIfsGdYE=",
@@ -21,7 +21,7 @@
       "Microsoft.Extensions.Primitives.dll": "sha256-dcOOWXZNfyVfDzi4lv6vbl7HLL3RI4iocs1HOOBwQCs=",
       "Microsoft.JSInterop.dll": "sha256-XTj6Q2hTTOZ7\/XRyxcO5ZNYy2DsVxyCZNdmjD58SNLA=",
       "Microsoft.JSInterop.WebAssembly.dll": "sha256-nHEdA4fO2naTDeQypVB7zpc3fDA2K7pLMuOlWwRKxCA=",
-      "Site.Wasm.dll": "sha256-\/tiGKGBgaHzNlbvjW14zeFEtjyWWvlH+75fwayiSrn8=",
+      "Site.Wasm.dll": "sha256-HwUCuYdheJ2dnAYxpeHBUdsgwOj7lrLwLmf\/P\/ZIrIU=",
       "System.Collections.Concurrent.dll": "sha256-47Odt\/npTkNo9w04F+0RrHLICR8QVbaZAwSVElyJQhg=",
       "System.Collections.dll": "sha256-RNwpq0KbUzy4Zt9H6y6K+P7ixV\/DJIoTVO704ABVEr4=",
       "System.ComponentModel.dll": "sha256-qAZEBfYKlVzgHGwvTf\/KvBW8kggBfYXJS9JXy6zl650=",
@@ -33,7 +33,7 @@
       "System.Private.Runtime.InteropServices.JavaScript.dll": "sha256-Eej3s6oqOQeIG\/DW5J5ED8jWGZ+Rd5PwKyxCZxVSUj8=",
       "System.Private.Uri.dll": "sha256-hMJ4CB7QKy5JzgkkyFrESXXDbOIW+SBsUj8VkiHg9k0=",
       "System.Runtime.CompilerServices.Unsafe.dll": "sha256-o8HiqC3XPTxJzfm8CUS6YyMKqByQrl0fsXdcwHem8zE=",
-      "System.Runtime.dll": "sha256-wQtOTNDoDh4UiOQ8FlFwmYbxGWzKHYVVSeQYjMYpy0U=",
+      "System.Runtime.dll": "sha256-K03naB+K7DDj0i4A\/j7miWUSxKDWLfe4bJZP2\/A2mvw=",
       "System.Text.Encodings.Web.dll": "sha256-eHW41m7Bo2QXvUu0T\/ZrcXZYwdihoE1aw\/g2uVpU4Fs=",
       "System.Text.Json.dll": "sha256-RdYDHZaUPwjuuGmE2MnRONRur5h7KpaVqm+CCE3wi2c="
     },

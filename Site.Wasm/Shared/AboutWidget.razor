@@ -1,0 +1,8 @@
+﻿<about-widget @onclick="@(() => NavigationManager.NavigateTo("/about"))">
+    <i class="fa-solid fa-circle-question"></i>
+    <span>About this website</span>
+</about-widget>
+
+@code {
+    [Inject] public NavigationManager NavigationManager { get; set; } = default!;
+}

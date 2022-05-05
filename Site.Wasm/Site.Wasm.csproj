@@ -20,7 +20,4 @@
   <ItemGroup>
       <Watch Include="**/*.scss" Exclude="**/*.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Content Remove="Shared\AboutLink.razor" />
-  </ItemGroup>
 </Project>

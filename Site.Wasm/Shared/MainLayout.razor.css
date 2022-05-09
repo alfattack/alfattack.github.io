@@ -1,4 +1,8 @@
 /* 2dp elevation modified*/
 /* 24dp elevation */
+article {
+  background-color: black;
+  background-image: url(img/background.jpg);
+}
 
 /*# sourceMappingURL=MainLayout.razor.css.map */

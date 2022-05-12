@@ -7,7 +7,7 @@
   "linkerEnabled": true,
   "resources": {
     "assembly": {
-      "Microsoft.AspNetCore.Components.dll": "sha256-ccVfW5wL3lc84eIrisCw09cmtNQI7S0EA1s5wLpIKiE=",
+      "Microsoft.AspNetCore.Components.dll": "sha256-IV1LXaYVqsTRH2TP7ereLO6wmlSBojCTpuCXZDvWwT4=",
       "Microsoft.AspNetCore.Components.Web.dll": "sha256-fHvda5zU0X7zjVeAEpntQwyvhfFBKnLFBikG9kvlr3Y=",
       "Microsoft.AspNetCore.Components.WebAssembly.dll": "sha256-RndB9vskzdCr7HGdJgXkhfQMDJV4P3GRO7aR0bSpuVA=",
       "Microsoft.Extensions.Configuration.Abstractions.dll": "sha256-z1kZ0edoPXzUgzqFC+RQWd3F\/4Ex4LY7AgxLIfsGdYE=",
@@ -21,7 +21,7 @@
       "Microsoft.Extensions.Primitives.dll": "sha256-dcOOWXZNfyVfDzi4lv6vbl7HLL3RI4iocs1HOOBwQCs=",
       "Microsoft.JSInterop.dll": "sha256-XTj6Q2hTTOZ7\/XRyxcO5ZNYy2DsVxyCZNdmjD58SNLA=",
       "Microsoft.JSInterop.WebAssembly.dll": "sha256-nHEdA4fO2naTDeQypVB7zpc3fDA2K7pLMuOlWwRKxCA=",
-      "Site.Wasm.dll": "sha256-LTfDgmu\/IqFYAuknCAbIniMvz7OfBgq9Y67TOhywfOc=",
+      "Site.Wasm.dll": "sha256-GnOcpUMK3Icvtc+DLfAneAqIZro7BiaebezSX+WPBPc=",
       "System.Collections.Concurrent.dll": "sha256-niRzl8DnN6oKoPhtvxT7ovHen+KOTZpSnU00KUy2DjY=",
       "System.Collections.dll": "sha256-PzIUWIFQYqW2vRCCRE\/7uPWNPvR0X4OMTZxw6EgerEg=",
       "System.ComponentModel.dll": "sha256-YOUwyB30U1ZzRwpE\/q7ZeYc6oQgeKXYETArI+lJwwfw=",
@@ -33,7 +33,7 @@
       "System.Private.Runtime.InteropServices.JavaScript.dll": "sha256-Skb55SBtb5CO3kAkAWi+D2a6lInL2WDxA7bhPQBWu+4=",
       "System.Private.Uri.dll": "sha256-j4LIrsnPHZoocm079RpyhA\/Zywqza7ltEpWTR87WHag=",
       "System.Runtime.CompilerServices.Unsafe.dll": "sha256-J4QnWYMA5idhXvx4G1ENkJUugrFZd9WFRZVv+5QpSNA=",
-      "System.Runtime.dll": "sha256-en8EBvPUDDEwAvS4AOMhSSDfZgYK6eVlFXwNUMkGdo4=",
+      "System.Runtime.dll": "sha256-3G7kBl3kNcgm0ekULGzGrQQUKSmj\/zXeRkBkjvBXU20=",
       "System.Text.Encodings.Web.dll": "sha256-QgqxWhV2N40\/IaeyspxPoWpHxc\/Axu3iCywf7OqIvb8=",
       "System.Text.Json.dll": "sha256-CfreT8FNR3HrQTzrL3s9PIFDiSuVfEOU3GBdtJ+sFDs="
     },

@@ -1,12 +1,12 @@
 ﻿@import "../Styles/_variables.scss";
 
-h1 {
+a {
     font-size: 13px;
     margin: 0;
     margin-left: 10px;
 
     @media #{$medium-and-up} {
-        font-size: 25px;
+        font-size: 20px;
     }
 }
 

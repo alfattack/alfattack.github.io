@@ -1,5 +1,15 @@
 ﻿@import "../Styles/_variables.scss";
 
+.page {
+    z-index: 2;
+    position: relative;
+    height: 100vh;
+    display:flex;
+    flex-direction: column;
+}
+
 main {
+    position: relative;
     padding: 50px;
+    height: 100%;
 }

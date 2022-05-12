@@ -1,0 +1,61 @@
+﻿@import "../Styles/_variables.scss";
+$num-particles: 10;
+
+particles {
+    overflow: hidden;
+    display: block;
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+particle {
+    display: block;
+    border-radius: 50%;
+    background-color: darken(#292323, 5%);
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: -50px;
+
+    @keyframes particle-pulse {
+        0% {
+            opacity: 1;
+        }
+
+        50% {
+            opacity: 0.5;
+        }
+
+        100% {
+            opacity: 1;
+        }
+    }
+
+    @for $i from 1 through $num-particles {
+
+        $particle-move-animation: "particle-move-" + $i;
+        $animation-delay: random(10) + s;
+        $circle-size: random(50) + px;
+
+        &:nth-child(#{$i}) {
+            @keyframes #{$particle-move-animation} {
+                from {
+                    transform: translateY(-#{random(100) + vh}) translateX(#{random(100) + vw});
+                }
+
+                to {
+                    transform: translateY(#{(random(100) + 100) + vh}) translateX(#{random(100) + vw});
+                }
+            }
+
+            animation: #{$particle-move-animation} 20s linear infinite, particle-pulse #{random(5) + s} linear infinite;
+            animation-delay: $animation-delay;
+            width: $circle-size;
+            height: $circle-size;
+        }
+    }
+}

@@ -25,7 +25,7 @@ nav {
     transition: 0.3s;
     height: $navbar-height-mobile;
     line-height: $navbar-line-height-mobile;
-    background-color: $primary-color;
+    background-color: rgba($primary-color-dark, 0.5);
     box-shadow: $z-depth-1;
     color: $navbar-font-color;
     display: flex;

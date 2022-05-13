@@ -50,10 +50,10 @@ header > span > i[b-efbvnnbdur] {
   }
 }
 header > span > i:nth-of-type(1)[b-efbvnnbdur] {
-  animation-delay: 113ms;
+  animation-delay: 4ms;
 }
 header > span > i:nth-of-type(2)[b-efbvnnbdur] {
-  animation-delay: 64ms;
+  animation-delay: 6ms;
 }
 
 a.about[b-efbvnnbdur] {
@@ -161,143 +161,143 @@ particle[b-ii5htmatvo] {
   }
 }
 particle:nth-child(1)[b-ii5htmatvo] {
-  animation: particle-move-1-b-ii5htmatvo 20s linear infinite, particle-pulse-b-ii5htmatvo 1s linear infinite;
-  animation-delay: 4s;
-  width: 12px;
-  height: 12px;
+  animation: particle-move-1-b-ii5htmatvo 20s linear infinite, particle-pulse-b-ii5htmatvo 3s linear infinite;
+  animation-delay: 10s;
+  width: 13px;
+  height: 13px;
 }
 @keyframes particle-move-1-b-ii5htmatvo {
   from {
-    transform: translateY(-53vh) translateX(83vw);
+    transform: translateY(-24vh) translateX(97vw);
   }
   to {
-    transform: translateY(114vh) translateX(10vw);
+    transform: translateY(182vh) translateX(8vw);
   }
 }
 particle:nth-child(2)[b-ii5htmatvo] {
-  animation: particle-move-2-b-ii5htmatvo 20s linear infinite, particle-pulse-b-ii5htmatvo 2s linear infinite;
-  animation-delay: 7s;
-  width: 11px;
-  height: 11px;
+  animation: particle-move-2-b-ii5htmatvo 20s linear infinite, particle-pulse-b-ii5htmatvo 4s linear infinite;
+  animation-delay: 8s;
+  width: 40px;
+  height: 40px;
 }
 @keyframes particle-move-2-b-ii5htmatvo {
   from {
-    transform: translateY(-37vh) translateX(37vw);
+    transform: translateY(-86vh) translateX(82vw);
   }
   to {
-    transform: translateY(158vh) translateX(37vw);
+    transform: translateY(104vh) translateX(15vw);
   }
 }
 particle:nth-child(3)[b-ii5htmatvo] {
-  animation: particle-move-3-b-ii5htmatvo 20s linear infinite, particle-pulse-b-ii5htmatvo 5s linear infinite;
+  animation: particle-move-3-b-ii5htmatvo 20s linear infinite, particle-pulse-b-ii5htmatvo 4s linear infinite;
   animation-delay: 1s;
-  width: 18px;
-  height: 18px;
+  width: 46px;
+  height: 46px;
 }
 @keyframes particle-move-3-b-ii5htmatvo {
   from {
-    transform: translateY(-14vh) translateX(46vw);
+    transform: translateY(-4vh) translateX(61vw);
   }
   to {
-    transform: translateY(114vh) translateX(25vw);
+    transform: translateY(112vh) translateX(7vw);
   }
 }
 particle:nth-child(4)[b-ii5htmatvo] {
-  animation: particle-move-4-b-ii5htmatvo 20s linear infinite, particle-pulse-b-ii5htmatvo 5s linear infinite;
-  animation-delay: 2s;
-  width: 14px;
-  height: 14px;
+  animation: particle-move-4-b-ii5htmatvo 20s linear infinite, particle-pulse-b-ii5htmatvo 2s linear infinite;
+  animation-delay: 3s;
+  width: 31px;
+  height: 31px;
 }
 @keyframes particle-move-4-b-ii5htmatvo {
   from {
-    transform: translateY(-74vh) translateX(17vw);
+    transform: translateY(-25vh) translateX(93vw);
   }
   to {
-    transform: translateY(164vh) translateX(15vw);
+    transform: translateY(102vh) translateX(70vw);
   }
 }
 particle:nth-child(5)[b-ii5htmatvo] {
-  animation: particle-move-5-b-ii5htmatvo 20s linear infinite, particle-pulse-b-ii5htmatvo 1s linear infinite;
-  animation-delay: 2s;
-  width: 44px;
-  height: 44px;
+  animation: particle-move-5-b-ii5htmatvo 20s linear infinite, particle-pulse-b-ii5htmatvo 4s linear infinite;
+  animation-delay: 4s;
+  width: 45px;
+  height: 45px;
 }
 @keyframes particle-move-5-b-ii5htmatvo {
   from {
-    transform: translateY(-49vh) translateX(88vw);
+    transform: translateY(-67vh) translateX(14vw);
   }
   to {
-    transform: translateY(128vh) translateX(60vw);
+    transform: translateY(121vh) translateX(28vw);
   }
 }
 particle:nth-child(6)[b-ii5htmatvo] {
-  animation: particle-move-6-b-ii5htmatvo 20s linear infinite, particle-pulse-b-ii5htmatvo 2s linear infinite;
-  animation-delay: 8s;
-  width: 3px;
-  height: 3px;
+  animation: particle-move-6-b-ii5htmatvo 20s linear infinite, particle-pulse-b-ii5htmatvo 3s linear infinite;
+  animation-delay: 4s;
+  width: 46px;
+  height: 46px;
 }
 @keyframes particle-move-6-b-ii5htmatvo {
   from {
-    transform: translateY(-73vh) translateX(61vw);
+    transform: translateY(-22vh) translateX(64vw);
   }
   to {
-    transform: translateY(153vh) translateX(89vw);
+    transform: translateY(101vh) translateX(92vw);
   }
 }
 particle:nth-child(7)[b-ii5htmatvo] {
-  animation: particle-move-7-b-ii5htmatvo 20s linear infinite, particle-pulse-b-ii5htmatvo 1s linear infinite;
-  animation-delay: 1s;
-  width: 27px;
-  height: 27px;
+  animation: particle-move-7-b-ii5htmatvo 20s linear infinite, particle-pulse-b-ii5htmatvo 5s linear infinite;
+  animation-delay: 7s;
+  width: 22px;
+  height: 22px;
 }
 @keyframes particle-move-7-b-ii5htmatvo {
   from {
-    transform: translateY(-58vh) translateX(56vw);
+    transform: translateY(-33vh) translateX(66vw);
   }
   to {
-    transform: translateY(149vh) translateX(90vw);
+    transform: translateY(109vh) translateX(19vw);
   }
 }
 particle:nth-child(8)[b-ii5htmatvo] {
-  animation: particle-move-8-b-ii5htmatvo 20s linear infinite, particle-pulse-b-ii5htmatvo 5s linear infinite;
+  animation: particle-move-8-b-ii5htmatvo 20s linear infinite, particle-pulse-b-ii5htmatvo 2s linear infinite;
   animation-delay: 2s;
-  width: 15px;
-  height: 15px;
+  width: 37px;
+  height: 37px;
 }
 @keyframes particle-move-8-b-ii5htmatvo {
   from {
-    transform: translateY(-35vh) translateX(17vw);
+    transform: translateY(-33vh) translateX(15vw);
   }
   to {
-    transform: translateY(126vh) translateX(72vw);
+    transform: translateY(127vh) translateX(19vw);
   }
 }
 particle:nth-child(9)[b-ii5htmatvo] {
-  animation: particle-move-9-b-ii5htmatvo 20s linear infinite, particle-pulse-b-ii5htmatvo 3s linear infinite;
+  animation: particle-move-9-b-ii5htmatvo 20s linear infinite, particle-pulse-b-ii5htmatvo 1s linear infinite;
   animation-delay: 1s;
-  width: 24px;
-  height: 24px;
+  width: 15px;
+  height: 15px;
 }
 @keyframes particle-move-9-b-ii5htmatvo {
   from {
-    transform: translateY(-47vh) translateX(59vw);
+    transform: translateY(-8vh) translateX(24vw);
   }
   to {
-    transform: translateY(178vh) translateX(22vw);
+    transform: translateY(118vh) translateX(73vw);
   }
 }
 particle:nth-child(10)[b-ii5htmatvo] {
-  animation: particle-move-10-b-ii5htmatvo 20s linear infinite, particle-pulse-b-ii5htmatvo 4s linear infinite;
-  animation-delay: 1s;
+  animation: particle-move-10-b-ii5htmatvo 20s linear infinite, particle-pulse-b-ii5htmatvo 3s linear infinite;
+  animation-delay: 6s;
   width: 27px;
   height: 27px;
 }
 @keyframes particle-move-10-b-ii5htmatvo {
   from {
-    transform: translateY(-43vh) translateX(30vw);
+    transform: translateY(-59vh) translateX(56vw);
   }
   to {
-    transform: translateY(162vh) translateX(94vw);
+    transform: translateY(122vh) translateX(89vw);
   }
 }
 

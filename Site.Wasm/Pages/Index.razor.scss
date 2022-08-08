@@ -53,12 +53,13 @@ header {
     }
 }
 
+footer {
+    margin-top: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
 a.about {
-    position: absolute;
-    margin: 12px;
-    bottom: 0;
-    right: 0;
     color: #0D1315;
     background-color: white;
 }
-

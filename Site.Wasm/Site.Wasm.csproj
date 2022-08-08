@@ -4,10 +4,11 @@
     <TargetFramework>net6.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+    <VersionNumber>1.0.0</VersionNumber>
   </PropertyGroup>
 
   <PropertyGroup>
-        <BlazorWasmPrerenderingDeleteLoadingContents>true</BlazorWasmPrerenderingDeleteLoadingContents>
+    <BlazorWasmPrerenderingDeleteLoadingContents>true</BlazorWasmPrerenderingDeleteLoadingContents>
   </PropertyGroup>
 
   <ItemGroup>
@@ -24,15 +25,5 @@
 
   <ItemGroup>
       <Watch Include="**/*.scss" Exclude="**/*.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Remove="wwwroot\data\" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="wwwroot\data\" />
-    <Folder Include="Models\" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Remove="Modles\" />
   </ItemGroup>
 </Project>

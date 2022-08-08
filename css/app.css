@@ -397,48 +397,6 @@ template {
   display: none;
 }
 
-.loading-placeholder {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100vh;
-  width: 100vw;
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-}
-.loading-placeholder .loading-line {
-  position: relative;
-  width: 20px;
-  height: 80vh;
-  background-color: white;
-}
-.loading-placeholder .loading-line::after {
-  position: absolute;
-  top: -20px;
-  left: -10px;
-  content: " ";
-  background-color: white;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  animation: loading-slide 4s ease-in-out infinite;
-}
-.loading-placeholder .loading-line:nth-child(2)::after {
-  animation-delay: 1s;
-}
-
-@keyframes loading-slide {
-  0% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(80vh);
-  }
-  100% {
-    transform: translateY(0);
-  }
-}
 html, body {
   font-family: "Roboto Mono", monospace;
   color: white;

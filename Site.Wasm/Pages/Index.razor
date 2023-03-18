@@ -8,17 +8,4 @@
 
 <footer>
     <a class="about" href="/about">About this website.</a>
-
-    <label>build @_buildVersion</label>
 </footer>
-
-@code {
-    string? _buildVersion;
-
-    protected override void OnInitialized()
-    {
-        _buildVersion = Assembly.GetExecutingAssembly()
-            ?.GetCustomAttribute<AssemblyInformationalVersionAttribute>()
-            ?.InformationalVersion;
-    }
-}

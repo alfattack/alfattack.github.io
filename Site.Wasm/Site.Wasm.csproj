@@ -1,29 +1,28 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk.BlazorWebAssembly">
 
-  <PropertyGroup>
-    <TargetFramework>net6.0</TargetFramework>
-    <Nullable>enable</Nullable>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <VersionNumber>1.0.0</VersionNumber>
-  </PropertyGroup>
+	<PropertyGroup>
+		<TargetFramework>net7.0</TargetFramework>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<VersionNumber>1.1.0</VersionNumber>
+	</PropertyGroup>
 
-  <PropertyGroup>
-    <BlazorWasmPrerenderingDeleteLoadingContents>true</BlazorWasmPrerenderingDeleteLoadingContents>
-  </PropertyGroup>
+	<PropertyGroup>
+		<BlazorWasmPrerenderingDeleteLoadingContents>true</BlazorWasmPrerenderingDeleteLoadingContents>
+	</PropertyGroup>
 
-  <ItemGroup>
-    <PackageReference Include="BlazorWasmPreRendering.Build" Version="1.0.0-preview.26.0" />
-    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="6.0.7" />
-    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="6.0.7" PrivateAssets="all" />
-  </ItemGroup>
+	<ItemGroup>
+		<PackageReference Include="BlazorWasmPreRendering.Build" Version="2.0.0-preview.8" />
+		<PackageReference Include="BuildWebCompiler" Version="1.12.405" />
+		<PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="7.0.0" />
+		<PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="7.0.0" PrivateAssets="all" />
+	</ItemGroup>
 
-  <Target Name="PreBuild" BeforeTargets="PreBuildEvent">
-    <Exec Command="sass Pages" />
-    <Exec Command="sass Shared" />
-    <Exec Command="sass Styles/app.scss wwwroot/css/app.css --no-source-map" />
-  </Target>
+	<ItemGroup>
+		<Content Remove="compilerconfig.json" />
+	</ItemGroup>
 
-  <ItemGroup>
-      <Watch Include="**/*.scss" Exclude="**/*.cs" />
-  </ItemGroup>
+	<ItemGroup>
+		<None Include="compilerconfig.json" />
+	</ItemGroup>
 </Project>
